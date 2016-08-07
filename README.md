@@ -1,5 +1,4 @@
-# Louis Knapp's Website
-- this is my website. Hi!
+# Anna Braum's Website
 - compile this project using compile.sh
     (requires haml, less, coffeescript)
 - run locally w/simplehttpserver
