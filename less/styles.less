@@ -9,17 +9,33 @@ body{
 
 h1{
   font-family: "Permanent Marker";
-  padding-top: 15%;
   color: @darkgrey;
   text-align: center;
   font-size: 5em;
+  margin-bottom: 5px;
 }
 
-p {
+p, i {
   padding: 0 25%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
   color: @mauve;
   text-decoration: none;
+}
+
+p:last-child {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  p, i {
+    padding: 0 5%;
+  }
 }
